@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title> Logowanie </title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+   
+   
+    <div class="login-box">
+    <div class="form">
+    <form class="register-form">
+    <img src="images/2.png" class="avatar">
+        <h1>Zaloguj się</h1>
+        
+    <p>Nazwa użytkownika</p>
+    <input type="text" name="username" placeholder="Wpisz nazwę użytkownika">
+    <p>Hasło</p>
+    <input type="password" name="password" placeholder="Wpisz hasło">
+    <input type="submit" name="submit" value="Zaloguj">
+    
+    <p class="message">Nie masz konta?<a href="#"> Rejestracja</a></p>
+    </form>
+         
+   
+    
+        
+
+     <form class="login-form">
+          <img src="images/2.png" class="avatar">
+           <h1>Zarejestruj się</h1> 
+            <input type="text" name="username" placeholder="Nazwa użytkownika">         
+            <input type="password" name="password" placeholder="Hasło">
+            <input type="text" name="email" placeholder="e-mail">
+            <input type="submit" name="submit" value="Zarejestruj">
+            <p class="message">Masz konto?<a href="#"> Zaloguj</a></p>
+        </form>
+  
+    
+    
+    </div>
+    </div>
+   
+   
+   
+   
+   
+    
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'>
+    </script>
+    
+    <script>
+        $('.message a').click(function(){
+        $('form').animate({height: "toogle", opacity: "toggle"}, "slow");
+        });
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+    
+    
+</body>
+</html>
